@@ -1,0 +1,123 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+body {
+	background-color: #f0dbdb;
+}
+
+main {
+	min-height: 100vh;
+}
+
+footer {
+	background-color: #1b2430 !important;
+	bottom: 0 !important;
+}
+
+.categoryBox-div {
+	margin-bottom: 50px !important;
+}
+
+.categoryBox {
+	height: 450px !important;
+	background-color: #f0dbdb !important;
+	box-shadow: 0 0 10px 5px #a37973c6 !important;
+	opacity: 0.9;
+}
+
+.categoryBox:hover {
+	opacity: 1;
+}
+
+.homeDiv {
+	border-radius: 20px;
+	background-color: #dba39a79 !important;
+	box-shadow: 0 0 10px 5px #7b5c57 !important;
+}
+
+.box2 {
+	margin-right: 105px !important;
+}
+
+.homeDiv img {
+	border-radius: 10px !important;
+}
+
+.cardDetails {
+	background-color: #d2daff !important;
+	box-shadow: 0 0 5px 3px #282c3437 !important;
+	border: none !important;
+	transition: all 0.5s !important;
+}
+
+.cardDetails:hover {
+	background-color: #809ad8 !important;
+	box-shadow: 0 0 7px 5px #282c347b !important;
+	color: aliceblue !important;
+}
+
+.carousel-item {
+	width: 100% !important;
+	height: 700px !important;
+}
+
+.carousel-item img {
+	border-radius: 40px !important;
+}
+
+#myCarousel .carousel-caption {
+	background-color: #1b2430a6 !important;
+	color: #fff !important;
+	padding: 20px !important;
+	text-align: center !important;
+	border-radius: 30px !important;
+	box-shadow: 0 0 10px 5px #3c3b2390 !important;
+}
+
+#logoHeader {
+	background-image: linear-gradient(
+		to left,
+		#00a6ff,
+		#ff6f00,
+		#fcf400,
+		#00fc1d
+	) !important;
+	background-clip: text !important;
+	color: transparent !important;
+}
